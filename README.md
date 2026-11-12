@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TatvaOps — Selenium Automation (Java + TestNG, Page Object Model)
 
 A Maven Selenium framework structured for the TatvaOps SPA, ready to open in
@@ -81,3 +82,6 @@ keep the real regression suite as the code above.
 - `testdata.xlsx` ships with edge-case invalid-login rows; extend as needed.
 - Add ExtentReports wiring in a TestNG listener when you want richer HTML reports
   (dependency is already in pom.xml).
+=======
+# SeleniumAutomation
+>>>>>>> 97f680ba18af1121a71542a90ff5d66ae196a9b3
