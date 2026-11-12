@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TatvaOps-Suite" parallel="false" thread-count="1" verbose="1">
+
+    <!-- Smoke: fast sanity checks -->
+    <test name="Smoke">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.SmokeTest"/>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Regression: fuller coverage -->
+    <test name="Regression">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.DashboardTest"/>
+        </classes>
+    </test>
+
+</suite>

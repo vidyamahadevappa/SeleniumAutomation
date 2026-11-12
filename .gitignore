@@ -1,0 +1,8 @@
+target/
+screenshots/*.png
+reports/*.html
+logs/*.log
+*.iml
+.idea/
+.vscode/
+test-output/
